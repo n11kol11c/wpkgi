@@ -1,0 +1,13 @@
+{
+    "default_install_path": "C:\\Program Files\\",
+    "log_level": "INFO",
+    "check_updates": true,
+    "proxy": {
+      "enabled": false,
+      "server": null,
+      "port": 0,
+      "username": null,
+      "password": null
+    }
+}
+  

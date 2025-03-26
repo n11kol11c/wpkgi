@@ -1,0 +1,36 @@
+# Core dependencies for the project
+colorama>=0.4.4,<0.5.0  # For colored terminal output
+requests>=2.25.1,<3.0.0  # For making HTTP requests (if you want to add online functionality)
+
+# For working with JSON files and configurations (already part of Python, but included for clarity)
+jsonschema>=3.2.0,<4.0.0  # For validating JSON configurations
+
+# For handling environment variables (useful for configurations or external commands)
+python-dotenv>=0.19.2,<1.0.0  # To load .env files for storing sensitive data like API keys
+
+# For system operations (e.g., downloading packages, running shell commands)
+subprocess32>=3.5.4,<4.0.0  # A backport of Python 3.5 subprocess module for older versions of Python
+
+# Optional: For packaging the project
+setuptools>=49.6.0,<50.0.0  # To package and distribute the project
+
+# Testing dependencies (if you're planning on adding tests)
+pytest>=6.2.0,<7.0.0  # Unit testing framework
+pytest-cov>=2.11.1,<3.0.0  # For code coverage reporting
+
+# Linting and formatting (to ensure code quality)
+flake8>=3.9.0,<4.0.0  # Python code style checker
+black>=21.4b0,<22.0.0  # Automatic code formatting tool
+
+# For handling asynchronous tasks (if you expand functionality)
+aiohttp>=3.7.4,<4.0.0  # For asynchronous HTTP requests
+
+# For command-line interface (CLI) building (optional, if you want a more complex CLI)
+click>=7.1.2,<8.0.0  # For building command-line interfaces
+argparse>=1.1,<2.0.0  # To manage command-line arguments (already part of Python but included for clarity)
+
+# For packaging and distributing command-line tools
+pyinstaller>=4.5.1,<5.0.0  # To package the CLI tool into a standalone executable
+
+# For handling versioning (optional, if you're using version control)
+gitpython>=3.1.24,<4.0.0  # To interact with git repositories programmatically (useful for integrations)

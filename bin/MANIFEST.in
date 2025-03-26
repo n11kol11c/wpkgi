@@ -1,0 +1,47 @@
+# Include essential project files
+include README.md
+include LICENSE
+include requirements.txt
+include config/*.json
+
+# Include all Python source files
+recursive-include src *.py
+recursive-include classes *.py
+recursive-include assets *.py
+
+# Include additional assets (icons, templates, text files, scripts)
+recursive-include assets *.*
+recursive-include templates *.html *.jinja *.txt
+recursive-include scripts *.sh *.bat *.ps1
+
+# Include configuration files (YAML, TOML, INI, JSON)
+recursive-include config *.json *.yaml *.yml *.toml *.ini
+
+# Include translations if applicable
+recursive-include locales *.mo *.po
+
+# Include documentation files
+recursive-include docs *.md *.rst *.txt
+recursive-include docs/images *.png *.jpg *.svg
+
+# Include test files
+recursive-include tests *.py *.json *.yml
+
+# Include static and media files (if applicable)
+recursive-include static *.css *.js *.svg *.png *.jpg *.ico
+recursive-include media *
+
+# Exclude unnecessary files
+global-exclude __pycache__ *.pyc *.pyo *.pyd
+global-exclude *.log
+global-exclude *.tmp
+global-exclude .DS_Store
+global-exclude .git
+global-exclude .gitignore
+global-exclude .vscode
+global-exclude .idea
+
+# Make sure executable scripts are included
+include *.sh
+include *.bat
+include *.ps1
