@@ -7,7 +7,7 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-:: If it's already running as Administrator, execute your bot script
+:: If its already running as administrator, execute script
 cd /d %~dp0\..
 python3 wpkgi.py
 pause
