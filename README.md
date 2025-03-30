@@ -110,7 +110,7 @@ Packages are verified using SHA-256 checksums
 The installer runs with minimal required permissions
 
 ## 📝 License
-This project is licensed under the GPL-3.0 License - see the LICENSE file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Authors
 Tkemza - wpkgi - https://github.com/tkemza
