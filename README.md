@@ -28,10 +28,10 @@
 
 ```bash
 # Clone the repository
-git clone --depth=1 https://github.com/tkemza/wpkgi.git 
+git clone --depth=1 https://github.com/n11kol11c/wpkgi.git 
 
 # Or clone with 
-git clone https://github.com/tkemza/wpkgi.git 
+git clone https://github.com/n11kol11c/wpkgi.git 
 
 # Navigate to the project directorys bin
 cd wpkgi/bin
