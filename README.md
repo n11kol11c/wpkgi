@@ -113,7 +113,7 @@ The installer runs with minimal required permissions
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Authors
-Tkemza - wpkgi - https://github.com/tkemza
+M - wpkgi - https://github.com/n11kol11c
 
 ## 🙏 Acknowledgments
 Python community for excellent libraries
