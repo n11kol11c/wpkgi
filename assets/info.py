@@ -2,5 +2,5 @@
     Information about wpkgi
 """
 
-__author__ = 'Tkema' 
-__github__ = 'https://github.com/tkemza' 
+__author__ = 'Matija' 
+__github__ = 'https://github.com/n11kol11c' 
