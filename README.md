@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="images/wpkgi_logo.png">
+    <img src="images/wpkgi_logo.png" width="200">
     <h1>Windows Package Installer</h1>
 </div>
 
