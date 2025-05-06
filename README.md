@@ -119,4 +119,4 @@ M - wpkgi - https://github.com/n11kol11c
 Python community for excellent libraries
 
 ## 📞 Support
-For support, please open an issue on the GitHub repository or contact the maintainers directly at zerobytedep@gmail.com or directly on discord [@n11kol1c](https://discord.com).
+For support, please open an issue on the GitHub repository or contact the maintainers directly on discord [@n11kol1c](https://discord.com).
